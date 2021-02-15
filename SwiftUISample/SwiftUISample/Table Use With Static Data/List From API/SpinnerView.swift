@@ -26,7 +26,7 @@ struct SpinnerView: View {
 
     return
       ZStack {
-        configuration.blurredBackground.opacity(0.4)
+        configuration.blurredBackground.opacity(0.1)
           .edgesIgnoringSafeArea(.all)
           .blur(radius: 200)
 
